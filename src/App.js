@@ -1,9 +1,9 @@
 // import logo from './logo.svg';
-// import './index.css';
+import './index.scss';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-import NavBar from "./components/general/NavBar";
-import Landing from "./pages/landing";
+import NavBar from "./components/navbar/NavBar";
+import Landing from "./pages/landing/landing";
 import NoPage from "./pages/nopage";
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
       <Router>
         <Routes>
           <Route exact path = "/" element={<Landing />} />
+          <Route exact path = "/index.html" element={<Landing />} />
           <Route path="*" element={<NoPage />} />
         </Routes>
       </Router>

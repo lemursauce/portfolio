@@ -1,0 +1,77 @@
+
+.Landing {
+    display: flex;
+    flex-grow: 100;
+    flex-direction: column;
+    //background-color: var(--contrastColor);
+
+    a {
+        text-decoration-line: underline;
+    }
+    a:link {
+        color: var(--secondaryColor)
+    }
+    a:visited {
+        color: var(--detailColor)
+    }
+}
+
+/////
+
+.Hello {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+    color: var(--contrastColor);
+
+    // clarity shadows
+    -webkit-filter: drop-shadow(1px 3px 3px black);
+    filter: drop-shadow(1px 1px 3px black);
+}
+
+.ProfilePicture {
+    transition-duration: 0s;
+    width: 18em;
+    height: 18em;
+    border-radius: 100%;
+    box-shadow: 0 0 0.5em var(--contrastColor);
+
+    &:hover {
+        transition-duration: 0.1s;
+        box-shadow: 0 0 1em var(--contrastColor)
+    }
+}
+
+.Socials {
+    display: flex;
+    flex-direction: row;
+}
+
+.SocialIcon {
+    width: 3em;
+    height: 3em;
+    color: var(--detailColor);
+}
+
+.Emphasize {
+    color: var(--detailColor);
+    font-weight: bold;
+}
+
+/////
+
+.AboutMe {
+    background-color: var(--contrastColor);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ContentHead {
+    color: var(--primaryColor);
+    font-weight: bold;
+}

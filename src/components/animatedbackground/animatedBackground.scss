@@ -1,0 +1,16 @@
+
+.AnimatedBackground {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background: radial-gradient(#000 50%, #111);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: clip;
+    contain: content;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
