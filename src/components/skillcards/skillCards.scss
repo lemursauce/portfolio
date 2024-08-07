@@ -1,0 +1,53 @@
+
+
+.Cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-around;
+    //scroll-snap-type: x mandatory;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 4em;
+    
+    // clarity against shadows
+    -webkit-filter: drop-shadow(1px 3px 3px black);
+    filter: drop-shadow(1px 1px 3px black);
+
+    h2 {
+        align-self: center;
+        color: var(--detailColor);
+    }
+}
+
+.CardIcon {
+    width: 3em;
+    height: 3em;
+    align-self: center;
+}
+
+@media (min-width: 500px) {
+    .Card {
+        flex-wrap: wrap;
+        margin: 20px;
+    }
+}
+
+@media (min-width: 700px) {
+    .Card {
+        flex-wrap: nowrap;
+        margin: 30px;
+    }
+}
+
+@media (min-width: 1100px) {
+    .Card {
+        flex-wrap: nowrap;
+        margin: 40px;
+    }
+}

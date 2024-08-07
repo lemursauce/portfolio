@@ -21,16 +21,22 @@
 .Hello {
     min-height: 100vh;
     display: flex;
+    
+    background-color: transparent;
+}
+
+.Central {
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-color: transparent;
-    color: var(--contrastColor);
+}
 
-    // clarity shadows
+.AgainstBackground {
+    // clarity against shadows
     -webkit-filter: drop-shadow(1px 3px 3px black);
     filter: drop-shadow(1px 1px 3px black);
+    color: var(--contrastColor);
 }
 
 .ProfilePicture {
