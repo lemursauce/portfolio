@@ -17,7 +17,7 @@ function AnimatedBackground() {
                     radial-gradient(
                       @p(#FFFFEE, #FFEEFF, #555566, #556655) 15%,
                       transparent 50%
-                    ) @r(100%) @r(100%) / @r(0.5%, 1%) @lr no-repeat
+                    ) @r(100vmax) @r(100vmax) / @r(0.5vmin, 1vmin) @lr no-repeat
                   );
 
                   @size: 100%;
