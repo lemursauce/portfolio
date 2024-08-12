@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is the source code to my portfolio.
+This is the source code to my portfolio. Link to website is [https://lemursauce.github.io/portfolio/](https://lemursauce.github.io/portfolio/).
 
 This was made using react and deployed using gh-pages.
 
