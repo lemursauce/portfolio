@@ -2,8 +2,7 @@ import { Container } from "react-bootstrap";
 
 import AnimatedBackground from "../../components/animatedbackground/AnimatedBackground";
 
-//import "./landing.scss";
-//import profilePicture from "../../resources/icon.png";
+import "./landing.scss";
 import profilePicture from "../../resources/me.png"
 
 import SkillCards from "../../components/skillcards/SkillCards";

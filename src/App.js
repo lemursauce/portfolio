@@ -1,4 +1,4 @@
-// import logo from './logo.svg';
+
 import './index.scss';
 import { Routes, Route } from "react-router-dom";
 
@@ -11,8 +11,8 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route path = "/" element={<Landing />} />
-        <Route path = "/index.html" element={<Landing />} />
+        <Route exact path = "/" element={<Landing />} />
+        <Route exact path = "/index.html" element={<Landing />} />
         <Route path = "*" element={<NoPage />} />
       </Routes>
     </>

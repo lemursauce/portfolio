@@ -1,4 +1,4 @@
-//import "./skillCards.scss"
+import "./skillCards.scss"
 
 function SkillCard(content) {
     return (

@@ -1,5 +1,5 @@
 import "css-doodle";
-//import "./animatedBackground.scss"
+import "./animatedBackground.scss"
 
 // code is a modification of https://codepen.io/anon/embed/MWvPbMW?height=450&theme-id=1&slug-hash=MWvPbMW&default-tab=css,result#result-box
 

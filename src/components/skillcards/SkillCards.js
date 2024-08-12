@@ -1,6 +1,6 @@
 import SkillCard from "./SkillCard";
 import { Container } from "react-bootstrap";
-//import "./skillCards.scss";
+import "./skillCards.scss";
 
 function SkillCards() {
     return (

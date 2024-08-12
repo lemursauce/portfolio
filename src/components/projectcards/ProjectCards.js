@@ -1,6 +1,6 @@
 
 import ProjectCard from "./ProjectCard"
-//import "./projectCards.scss"
+import "./projectCards.scss"
 
 function projectCards() {
 
