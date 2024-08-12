@@ -1,6 +1,6 @@
 
 import ProjectLink from "./ProjectLink";
-import "./projectCards.scss";
+//import "./projectCards.scss";
 
 function projectCard(title, content, link) {
     return (

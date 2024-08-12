@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 
 import AnimatedBackground from "../../components/animatedbackground/AnimatedBackground";
 
-import "./landing.scss";
+//import "./landing.scss";
 //import profilePicture from "../../resources/icon.png";
 import profilePicture from "../../resources/me.png"
 
