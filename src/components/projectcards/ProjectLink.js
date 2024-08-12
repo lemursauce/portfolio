@@ -7,6 +7,7 @@ function ProjectLink(link) {
             href = {link}
             style = {{"margin-top":"auto"}}
             target="_blank"
+            rel="noreferrer"
         >
             Link Here
         </a>
