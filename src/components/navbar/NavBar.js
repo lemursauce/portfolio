@@ -7,9 +7,9 @@ function MyNavBar() {
         <div className="Navbar">
             <Navbar style={{ "backgroundColor": "var(--primaryColor)" }} collapseOnSelect expand="lg">
                 <Container fluid>
-                    <Navbar.Brand href="/">
-                        LOGAN CARBO
-                    </Navbar.Brand>
+                    <HashLink to="/" className="navbar-brand">
+                        Logan Carbo
+                    </HashLink>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navbar-dark"/>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ml-auto">

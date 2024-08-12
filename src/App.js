@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 
 import MyNavBar from "./components/navbar/NavBar";
 import Landing from "./pages/landing/landing";
-import NoPage from "./pages/nopage";
+import NoPage from "./pages/nopage/nopage";
 
 function App() {
   return (
