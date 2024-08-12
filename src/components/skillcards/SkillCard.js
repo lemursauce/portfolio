@@ -2,7 +2,7 @@ import "./skillCards.scss"
 
 function SkillCard(content) {
     return (
-        <li className="Card">
+        <li className="SkillCard">
             {content}
         </li>
     );

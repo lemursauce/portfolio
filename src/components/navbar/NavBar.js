@@ -14,6 +14,8 @@ function NavBar() {
                         <Nav className="ml-auto">
                             <Nav.Link href="#Home">Home</Nav.Link>
                             <Nav.Link href="#About">About</Nav.Link>
+                            <Nav.Link href="#Skills">Skills</Nav.Link>
+                            <Nav.Link href="#Projects">Projects</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

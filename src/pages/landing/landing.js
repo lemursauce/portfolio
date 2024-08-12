@@ -4,16 +4,20 @@ import { Icon } from '@iconify/react';
 import AnimatedBackground from "../../components/animatedbackground/AnimatedBackground";
 
 import "./landing.scss";
-import profilePicture from "../../resources/icon.png";
+//import profilePicture from "../../resources/icon.png";
+import profilePicture from "../../resources/me.png"
 
 import SkillCards from "../../components/skillcards/SkillCards";
+import ProjectCards from "../../components/projectcards/ProjectCards";
 
 function Landing() {
     return (
         <div className="Landing">
             <AnimatedBackground />
             <Container fluid className="Hello Central" id="Home">
-                <img className="ProfilePicture" src={profilePicture} aria-label="Image of Logan Carbo"/>
+                <div className="ProfileContainer">
+                    <img className="ProfilePicture" src={profilePicture} aria-label="Image of Logan Carbo"/>
+                </div>
                 <div className="AgainstBackground Central">
                     <h1 className="display-5 text-center">
                         Hello, I'm <span className="Emphasize"> Logan Carbo</span>,
@@ -41,7 +45,7 @@ function Landing() {
                 </div>
             </Container>
             
-            <Container fluid className="AboutMe" id="About">
+            <Container fluid className="AboutMe ContentAnchor" id="About">
                 <h1 className="ContentHead">About Me</h1>
                 <Container>
                     <p>
@@ -53,13 +57,18 @@ function Landing() {
                 </Container>
             </Container>
 
-            <Container fluid>
+            <Container fluid className="ContentAnchor" id="Skills">
                 <div className="py-3 AgainstBackground Central">
                     <h1 className="display-5 text-center Emphasize">
                     Technical Skills
                     </h1>
                 </div>
                 {SkillCards()}
+            </Container>
+
+            <Container fluid className="Projects ContentAnchor" id="Projects">
+                <h1 className="ContentHead">Projects</h1>
+                {ProjectCards()}
             </Container>
 
             <br/>

@@ -20,7 +20,7 @@ function AnimatedBackground() {
                     ) @r(100vmax) @r(100vmax) / @r(0.5vmin, 1vmin) @lr no-repeat
                   );
 
-                  @size: 100%;
+                  @size: 80%;
                   @place-cell: center;
 
                   border-radius: 50%;

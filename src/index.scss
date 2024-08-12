@@ -5,14 +5,18 @@ $contrastColor: #e3e3e3;
 
 
 /**********************/
-/* set html variables */
+/* set variables */
 
-html {
+:root {
+  --nav-height: 3.5em; /*nav bar height*/
+  
   --primaryColor: #{$primaryColor};
   --secondaryColor: #{$secondaryColor};
   --detailColor: #{$detailColor};
   --contrastColor: #{$contrastColor};
+}
 
+html {
   //background-color: #{$contrastColor};
 
   font-size: 18px;
