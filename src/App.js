@@ -12,9 +12,9 @@ function App() {
       <NavBar />
       <Router>
         <Routes>
-          <Route exact path = "/" element={<Landing />} />
-          <Route exact path = "/index.html" element={<Landing />} />
-          <Route path="*" element={<NoPage />} />
+          <Route path = "/" element={<Landing />} />
+          <Route path = "/index.html" element={<Landing />} />
+          <Route path = "*" element={<NoPage />} />
         </Routes>
       </Router>
     </div>
