@@ -1,7 +1,8 @@
 import { Container, Navbar, Nav } from "react-bootstrap";
+import { HashLink } from 'react-router-hash-link';
 import "./navbar.scss";
 
-function NavBar() {
+function MyNavBar() {
     return (
         <div className="Navbar">
             <Navbar style={{ "backgroundColor": "var(--primaryColor)" }} collapseOnSelect expand="lg">
@@ -12,10 +13,10 @@ function NavBar() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" className="navbar-dark"/>
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ml-auto">
-                            <Nav.Link href="#Home">Home</Nav.Link>
-                            <Nav.Link href="#About">About</Nav.Link>
-                            <Nav.Link href="#Skills">Skills</Nav.Link>
-                            <Nav.Link href="#Projects">Projects</Nav.Link>
+                            <HashLink smooth to="/#Home" className="nav-link">Home</HashLink>
+                            <HashLink smooth to="/#About" className="nav-link">About</HashLink>
+                            <HashLink smooth to="/#Skills" className="nav-link">Skills</HashLink>
+                            <HashLink smooth to="/#Projects" className="nav-link">Projects</HashLink>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
@@ -24,4 +25,4 @@ function NavBar() {
     );
 };
 
-export default NavBar;
+export default MyNavBar;
