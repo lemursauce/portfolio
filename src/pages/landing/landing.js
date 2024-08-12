@@ -3,7 +3,6 @@ import { Container } from "react-bootstrap";
 import AnimatedBackground from "../../components/animatedbackground/AnimatedBackground";
 
 import "./landing.scss";
-import profilePicture from "../../resources/me.png"
 
 import SkillCards from "../../components/skillcards/SkillCards";
 import ProjectCards from "../../components/projectcards/ProjectCards";
@@ -14,7 +13,7 @@ function Landing() {
             <AnimatedBackground />
             <Container fluid className="Hello Central" id="Home">
                 <div className="ProfileContainer">
-                    <img className="ProfilePicture" src={profilePicture} aria-label="Image of Logan Carbo"/>
+                    <img className="ProfilePicture" src="https://media.fotki.com/2v2eqPgPFxuqthW.png" aria-label="Image of Logan Carbo"/>
                 </div>
                 <div className="AgainstBackground Central">
                     <h1 className="display-5 text-center">

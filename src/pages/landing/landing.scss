@@ -34,9 +34,8 @@ a.ManualLink {
 }
 
 .AgainstBackground {
-    // clarity against shadows
-    -webkit-filter: drop-shadow(0px 0px 3px black);
-    filter: drop-shadow(0px 0px 3px black);
+    // text clarity against shadows
+    text-shadow: black 0px 0px 1px;
     color: var(--contrastColor);
 }
 

@@ -13,14 +13,14 @@ function AnimatedBackground() {
                     perspective: 23vmin;
                   }
                   background: @m(
-                    @r(100, 140), 
+                    @r(10,50), 
                     radial-gradient(
                       @p(#FFFFEE, #FFEEFF, #555566, #556655) 15%,
                       transparent 50%
                     ) @r(100vmax) @r(100vmax) / @r(0.5vmin, 1vmin) @lr no-repeat
                   );
 
-                  @size: 80%;
+                  @size: 100%;
                   @place-cell: center;
 
                   border-radius: 50%;
