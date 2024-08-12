@@ -1,0 +1,94 @@
+
+https://diogotc.com/
+
+https://developer-cv.weblium.site/
+
+https://www.tonybatts.com/
+
+
+
+
+https://icon-sets.iconify.design/
+
+
+
+
+(was going to have scrolling cards, but that lags react)
+
+
+https://devdevout.com/css/css-cards
+https://forfrontend.com/animated-css-cards/
+
+------------------------------------------
+
+
+Frontend Development:
+ - Languages:
+    * ...........
+ - Tools
+    * Bootstrap, Material UI, Jest, RSpec
+Backend Development
+ - Languages:
+    * Python, Java, javascript/typescript, Go, PHP, Ruby
+ - Tech stacks I've worked with:
+    * node.js + express - js/ts
+Systems Programming
+ - Languages:
+    * C, C++, Go, Rust, Bash
+ - Operating Systems I'm familiar with:
+    * Linux, Windows, WSL2
+Databases
+ - Languages:
+    * SQL
+ - Databse types:
+    * PostgreSQL
+ - Tools:
+    * GraphQL, knex.js
+Computer Graphics
+ - Languages:
+    * C++
+ - Tech stacks I've worked with:
+    * OpenGL - C++, OpenGL, GLSL
+ - Tools:
+    * GLM, GLFW, GLEW, CMake
+Machine Learning
+ - Languages:
+    * Python
+ - Major libraries:
+    * Scikit-learn
+    * Pytorch
+    * Keras/TensorFlow
+ - Tools:
+    * Numpy, Pandas, Scipy
+Mathematical Modeling
+ - Languages:
+    * Python (Matplotlib), R, MATLAB
+
+Planning:
+ - Jira, Trello
+Design
+ - 2D graphics:
+   * GIMP
+ - 3D Modeling:
+   * OpenSCAD, Meshlab, Blender
+
+
+
+Additional Tech/tools I've worked with:
+ - Haskell
+ - Git / GitHub
+ - Postman
+ - Markdown
+ - Latex
+ - Visual Studio Code
+ - Visual Studio
+ - Processing
+ - Jupyter
+ - Make
+ - JQuery
+ - Heroku
+ - Google Cloud
+|
+|
+v
+Summary information is on my GitHub
