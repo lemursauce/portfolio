@@ -1,5 +1,4 @@
 import { Container } from "react-bootstrap";
-import { Icon } from '@iconify/react';
 
 import AnimatedBackground from "../../components/animatedbackground/AnimatedBackground";
 
@@ -27,19 +26,19 @@ function Landing() {
                     </h2>
                     <div className="socials">
                         <a href="https://github.com/lemursauce" aria-label="My GitHub account" title="My GitHub account">
-                            <Icon icon="mdi:github" className="SocialIcon"/>
+                            <span class="iconify SocialIcon" data-icon="mdi:github" data-inline="false"/>
                         </a>
                         <a href="https://discordapp.com/users/657334339591471114" aria-label="My Discord account" title="My Discord account">
-                            <Icon icon="ic:baseline-discord" className="SocialIcon"/>
+                            <span class="iconify SocialIcon" data-icon="ic:baseline-discord" data-inline="false"/>
                         </a>
                         <a href="https://www.linkedin.com/in/logan-a-carbo/" aria-label="My LinkedIn account" title="My LinkedIn account">
-                            <Icon icon="mdi:linkedin" className="SocialIcon"/>
+                            <span class="iconify SocialIcon" data-icon="mdi:linkedin" data-inline="false"/>
                         </a>
                         <a href="https://leetcode.com/u/lacarbo/" aria-label="My LeetCode account" title="My LeetCode account">
-                            <Icon icon="simple-icons:leetcode" className="SocialIcon"/>
+                            <span class="iconify SocialIcon" data-icon="simple-icons:leetcode" data-inline="false"/>
                         </a>
                         <a href="mailto:lacarbo05@gmail.com" aria-label="My Email account" title="My Email">
-                            <Icon icon="mdi:gmail" className="SocialIcon"/>
+                            <span class="iconify SocialIcon" data-icon="mdi:gmail" data-inline="false"/>
                         </a>
                     </div>
                 </div>

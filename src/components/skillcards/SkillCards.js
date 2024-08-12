@@ -1,6 +1,5 @@
 import SkillCard from "./SkillCard";
 import { Container } from "react-bootstrap";
-import { Icon } from '@iconify/react';
 import "./skillCards.scss";
 
 function SkillCards() {
@@ -9,72 +8,72 @@ function SkillCards() {
             <ul className="SkillCards">
                 {// C++
                 SkillCard(<>
-                    <Icon icon="skill-icons:cpp" className="SkillCardIcon"/>
+                    <span class="iconify SkillCardIcon" data-icon="skill-icons:cpp" data-inline="false"/>
                     <h2>C/C++</h2>
                 </>)}
                 {// Python
                 SkillCard(<>
-                    <Icon icon="skill-icons:python-light" className="SkillCardIcon"/>
+                    <span class="iconify SkillCardIcon" data-icon="skill-icons:python-light" data-inline="false"/>
                     <h2>Python</h2>
                 </>)}
                 {// Java
                 SkillCard(<>
-                    <Icon icon="skill-icons:java-light" className="SkillCardIcon"/>
+                    <span class="iconify SkillCardIcon" data-icon="skill-icons:java-light" data-inline="false"/>
                     <h2>Java</h2>
                 </>)}
                 {// JS
                 SkillCard(<>
-                    <Icon icon="skill-icons:javascript" className="SkillCardIcon"/>
+                    <span class="iconify SkillCardIcon" data-icon="skill-icons:javascript" data-inline="false"/>
                     <h2>JS</h2>
                 </>)}
                 {// HTML
                 SkillCard(<>
-                    <Icon icon="skill-icons:html" className="SkillCardIcon"/>
+                    <span class="iconify SkillCardIcon" data-icon="skill-icons:html" data-inline="false"/>
                     <h2>HTML</h2>
                 </>)}
                 {// CSS
                 SkillCard(<>
-                    <Icon icon="skill-icons:css" className="SkillCardIcon"/>
+                    <span class="iconify SkillCardIcon" data-icon="skill-icons:css" data-inline="false"/>
                     <h2>CSS</h2>
                 </>)}
                 {// PostgreSQL
                 SkillCard(<>
-                    <Icon icon="skill-icons:postgresql-light" className="SkillCardIcon"/>
+                    <span class="iconify SkillCardIcon" data-icon="skill-icons:postgresql-light" data-inline="false"/>
                     <h2>SQL</h2>
                 </>)}
                 {// Ruby
                 SkillCard(<>
-                    <Icon icon="skill-icons:ruby" className="SkillCardIcon"/>
+                    <span class="iconify SkillCardIcon" data-icon="skill-icons:ruby" data-inline="false"/>
                     <h2>Ruby</h2>
                 </>)}
                 {// React
                 SkillCard(<>
-                    <Icon icon="skill-icons:react-light" className="SkillCardIcon"/>
+                    <span class="iconify SkillCardIcon" data-icon="skill-icons:react-light" data-inline="false"/>
                     <h2>React</h2>
                 </>)}
                 {// Node
                 SkillCard(<>
-                    <Icon icon="skill-icons:nodejs-light" className="SkillCardIcon"/>
+                    <span class="iconify SkillCardIcon" data-icon="skill-icons:nodejs-light" data-inline="false"/>
                     <h2>NodeJS</h2>
                 </>)}
                 {// Git
                 SkillCard(<>
-                    <Icon icon="skill-icons:git" className="SkillCardIcon"/>
+                    <span class="iconify SkillCardIcon" data-icon="skill-icons:git" data-inline="false"/>
                     <h2>Git</h2>
                 </>)}
                 {// NPM
                 SkillCard(<>
-                    <Icon icon="skill-icons:npm-light" className="SkillCardIcon"/>
+                    <span class="iconify SkillCardIcon" data-icon="skill-icons:npm-light" data-inline="false"/>
                     <h2>NPM</h2>
                 </>)}
                 {// SASS
                 SkillCard(<>
-                    <Icon icon="skill-icons:sass" className="SkillCardIcon"/>
+                    <span class="iconify SkillCardIcon" data-icon="skill-icons:sass" data-inline="false"/>
                     <h2>SASS</h2>
                 </>)}
                 {// Bootstrap
                 SkillCard(<>
-                    <Icon icon="skill-icons:bootstrap" className="SkillCardIcon"/>
+                    <span class="iconify SkillCardIcon" data-icon="skill-icons:bootstrap" data-inline="false"/>
                     <h2>Bootstrap</h2>
                 </>)}
             </ul>
