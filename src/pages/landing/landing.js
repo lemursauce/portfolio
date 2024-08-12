@@ -49,7 +49,7 @@ function Landing() {
                 <h1 className="ContentHead">About Me</h1>
                 <Container>
                     <p>
-                        I am a committed, self-driven, recent graduate from <a href="https://www.tamu.edu/" title="Texas A&M Homepage" aria-label="Link to Texas A&M Homepage">Texas A&M University</a> with a Bachelor of Science in Computer Science and a minor in Mathematics.
+                        I am a committed, self-driven, recent graduate from <a className="ManualLink" href="https://www.tamu.edu/" title="Texas A&M Homepage" aria-label="Link to Texas A&M Homepage">Texas A&M University</a> with a Bachelor of Science in Computer Science and a minor in Mathematics.
                     </p>
                     <p>
                         I am seeking employment opportunities that will expand my skills, both technical and professional, with a particular interest in any and all positions that involve some degree of frontend/backend development, systems design, algorithm development, cryptography, machine learning, computer graphics, and/or data analysis. My aspiration is to apply my skills and tenacious problem solving approach to various programming challenges, in whatever form they may take.

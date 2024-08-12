@@ -1,15 +1,15 @@
 
+import ProjectLink from "./ProjectLink";
 import "./projectCards.scss";
 
-function projectCard() {
+function projectCard(title, content, link) {
     return (
         <li className="ProjectCard">
-            <div className="ProjectCardOutline">
-                <div className="ProjectCardContent">
-                    ...
-                </div>
+            <h2>{title}</h2>
+            <div style={{"margin":"auto"}}>
+                {content}
             </div>
-            
+            {ProjectLink(link)}
         </li>
     )
 }

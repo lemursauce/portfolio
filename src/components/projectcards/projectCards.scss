@@ -1,24 +1,29 @@
 
 .ProjectCards {
+    // variables for better control
+    --projects-layout-gap: 10px;
+    --projects-column-count: 2;
+    --projects-item--min-width: 300px;
+
+    // calculated variables
+    --projects-gap-count: calc(var(--projects-column-count) - 1);
+    --projects-total-gap-width: calc(var(--projects-gap-count) * var(--projects-layout-gap));
+    --projects-item--max-width: calc((100% - var(--projects-total-gap-width)) / var(--projects-column-count));
+
+    // grid declaration
     display: grid;
-    grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(max(var(--projects-item--min-width), var(--projects-item--max-width)), 1fr));
+    grid-gap: var(--projects-layout-gap);
+
+    // extra
     justify-content: center;
     justify-items: center;
     align-items: center;
     list-style: none;
-}
 
-.ProjectCardOutline {
-    border-radius: 15%;
-    background: linear-gradient(71deg, var(--contrastColor), var(--secondaryColor), var(--contrastColor));
-}
-
-.ProjectCardContent {
-    margin: 3px;
-    padding: 7px;
-    border-radius: 15%;
-    background-color: var(--contrastColor);
+    .ProjectCard {
+        height: 100%;
+    }
 }
 
 .ProjectCard {
@@ -28,10 +33,28 @@
     flex: 1 1 0px;
     flex-basis: 0px;
 
-    width: 250px;
-    
+    padding: 20px;
     margin: 20px;
 
-    -webkit-filter: drop-shadow(-1px 1px 3px black);
-    filter: drop-shadow(-1px 1px 3px black);
+    border: 1px solid rgba(white, 0.45);
+    background-color: rgba(white, 0.45);
+    border-radius: 20px;
+
+    // shadow
+    box-shadow: 0 0 10px 1px rgba(black, 0.25);
+
+    backdrop-filter: blur(15px);
+    transition: all 0.2s;
+    backface-visibility: hidden;
+    -webkit-font-smoothing: subpixel-antialiased;
+
+    // hover "lift"
+    &:hover {
+        box-shadow: 0 0 10px 1px rgba(black, 0.45);
+        transform: scale(1.01); 
+    }
+
+    h2 {
+        color: var(--secondaryColor);
+    }
 }
