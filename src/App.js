@@ -11,8 +11,8 @@ function App() {
     <>
       <NavBar />
       <Routes>
-        <Route exact path = "/" element={<Landing />} />
-        <Route exact path = "/index.html" element={<Landing />} />
+        <Route path = "/" element={<Landing />} />
+        <Route path = "/index.html" element={<Landing />} />
         <Route path = "*" element={<NoPage />} />
       </Routes>
     </>
